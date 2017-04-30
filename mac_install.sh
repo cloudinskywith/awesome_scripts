@@ -27,6 +27,13 @@ brew install nodejs
 echo "finish nodejs installation"
 echo "#########################################################"
 
+## 其他node全局模块
+npm install -g cnpm --registry=http://registry.npm.taobao.org 
+npm config set registry "https://registry.npm.taobao.org"
+node install -g electron-prebuilt 
+
+
+
 npm install webpack -g
 npm install gulp -g
 npm install yarn -g
@@ -36,6 +43,9 @@ echo "#########################################################"
 ## 安装git
 brew install git
 echo "finish git installation"
+echo "empower git with hub"
+brew install hub
+alias git=hub
 echo "#########################################################"
 
 
