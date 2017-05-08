@@ -233,3 +233,9 @@ echo "                                                    "
 echo " ************************************************** "
 sudo apt-get install doublecmd-gtk 
 
+
+#### 安装Ubuntu-make 
+sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make -y 
+sudo apt-get update 
+sudo apt-get install ubuntu-make 
+
