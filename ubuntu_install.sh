@@ -56,7 +56,11 @@ sudo apt-get install software-properties-common -y#添加add-apt-repository软�
 echo "                         安装vim git curl 完成        "
 echo " ************************************************** "
 
-
+# 安装climate the ultimate command line tool for linux 
+echo " ************************************************** "
+echo "                         准备安装climate  "
+echo " ************************************************** "
+sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/adtac/climate/master/install)"
 # 安装chrome
 echo " ************************************************** "
 echo "                         准备下载chrome                "
