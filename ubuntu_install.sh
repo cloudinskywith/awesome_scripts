@@ -243,3 +243,7 @@ sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make -y
 sudo apt-get update 
 sudo apt-get install ubuntu-make 
 
+#### 安装indicator-network-speed
+sudo add-apt-repository ppa:fixnix/netspeed 
+sudo apt-get update 
+sudo apt-get install indicator-netspeed-unity
