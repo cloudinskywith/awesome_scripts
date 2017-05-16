@@ -247,3 +247,11 @@ sudo apt-get install ubuntu-make
 sudo add-apt-repository ppa:fixnix/netspeed 
 sudo apt-get update 
 sudo apt-get install indicator-netspeed-unity
+
+
+echo " *************************************************  "
+echo " 安装zeal  文档管理工具 "
+echo " *************************************************  "
+sudo add-apt-repository ppa:zeal-developers/ppa -y
+sudo apt-get update
+sudo apt-get install zeal
